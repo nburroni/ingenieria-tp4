@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<XMI xmlns:UML="omg.org/UML1.3" xmi.version="1.1" timestamp="2016-06-09 00:28:18">&amp;#13;
+<XMI xmlns:UML="omg.org/UML1.3" xmi.version="1.1" timestamp="2016-06-09 00:31:09">&amp;#13;
 	<XMI.header>&amp;#13;
 		<XMI.documentation>&amp;#13;
 			<XMI.exporter>Enterprise Architect</XMI.exporter>&amp;#13;
@@ -1293,6 +1293,17 @@
 												</UML:Parameter>&amp;#13;
 											</UML:BehavioralFeature.parameter>&amp;#13;
 										</UML:Operation>&amp;#13;
+										<UML:Operation name="adjustSun" visibility="private" ownerScope="instance" isQuery="false" concurrency="sequential">&amp;#13;
+											<UML:ModelElement.taggedValue>&amp;#13;
+												<UML:TaggedValue tag="const" value="false"/>&amp;#13;
+												<UML:TaggedValue tag="synchronised" value="0"/>&amp;#13;
+												<UML:TaggedValue tag="concurrency" value="Sequential"/>&amp;#13;
+												<UML:TaggedValue tag="position" value="18"/>&amp;#13;
+												<UML:TaggedValue tag="pure" value="0"/>&amp;#13;
+												<UML:TaggedValue tag="ea_guid" value="{5207D274-5902-4f21-A856-957F0EB10523}"/>&amp;#13;
+												<UML:TaggedValue tag="ea_localid" value="629"/>&amp;#13;
+											</UML:ModelElement.taggedValue>&amp;#13;
+										</UML:Operation>&amp;#13;
 										<UML:Operation name="bake" visibility="private" ownerScope="instance" isQuery="false" concurrency="sequential">&amp;#13;
 											<UML:ModelElement.taggedValue>&amp;#13;
 												<UML:TaggedValue tag="const" value="false"/>&amp;#13;
@@ -2346,7 +2357,7 @@
 										<UML:TaggedValue tag="ea_localid" value="151"/>&amp;#13;
 										<UML:TaggedValue tag="ea_eleType" value="element"/>&amp;#13;
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>&amp;#13;
-										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DBCE1C42-28D4-4757-9702-ACF36A85025B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={26E970D3-FA3F-415a-BB94-CC3E93D1979F};FQName=EAUML::enumeration;@ENDSTEREO;$DES;$CLT={C9C98B0E-EC06-4db0-BE3A-29546E159DD8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>&amp;#13;
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B6528FEA-64AD-4b17-9F28-A009E68E3ACF}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enumeration;GUID={26E970D3-FA3F-415a-BB94-CC3E93D1979F};FQName=EAUML::enumeration;@ENDSTEREO;$DES;$CLT={C9C98B0E-EC06-4db0-BE3A-29546E159DD8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>&amp;#13;
 									</UML:ModelElement.taggedValue>&amp;#13;
 									<UML:Classifier.feature>&amp;#13;
 										<UML:Attribute name="SUMMER" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">&amp;#13;
